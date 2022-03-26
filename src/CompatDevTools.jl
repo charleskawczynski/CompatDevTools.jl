@@ -97,7 +97,7 @@ function synchronize_compats(code_dir::AbstractString)
         choice = TerminalMenus.request(msg, menu)
         if !(choice == length(options))
             answers[pkg] = (env_dirs[choice], lines[choice], lines)
-            @info "Changing $(env_dirs[choice]) compat for $pkg to $(lines[choice])"
+            @info "Changing compat entry for $pkg to $(lines[choice]) for all environments ($(env_dirs))"
         end
     end
 
