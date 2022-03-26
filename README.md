@@ -31,3 +31,6 @@ entry for all Project.toml dependencies.
 ```
 This may be useful if you've started working on a new package which may have many dependencies and you need to generate your first set of compat entries. This function prints compat entries based on the existing Manifest.toml (and Project.toml) files.
 
+## Demo
+
+![Demo](demo.gif)
